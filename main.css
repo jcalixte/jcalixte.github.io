@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+
+html {
+  font-family: 'Fira Mono',
+    monospace;
+  height: 100vh;
+}
+
+body {
+  margin: 15px;
+}
+
+main {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+header {
+  height: 15vh;
+}
