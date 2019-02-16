@@ -1,13 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Fira+Mono');
 
 html {
-  font-family: 'Fira Mono',
-    monospace;
+  font-family: 'Fira Mono', monospace;
   height: 100vh;
+  background-color: rgb(25, 28, 41);
+  color: white;
 }
 
 body {
   margin: 15px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 main {
@@ -18,4 +25,24 @@ main {
 
 header {
   height: 15vh;
+}
+
+a {
+  background-color: rgb(95, 57, 88);
+  padding: 2px;
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: white;
+}
+
+ul {
+  padding: 0;
+  list-style: square;
+}
+
+li {
+  line-height: 2rem;
 }
