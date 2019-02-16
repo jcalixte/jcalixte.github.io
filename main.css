@@ -42,7 +42,8 @@ a:visited {
 
 ul {
   padding: 0;
-  list-style: square;
+  list-style: inside square;
+  text-align: left;
 }
 
 section {
