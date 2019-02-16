@@ -5,6 +5,7 @@ html {
   height: 100vh;
   background-color: rgb(25, 28, 41);
   color: white;
+  line-height: 2rem;
 }
 
 body {
@@ -43,6 +44,7 @@ ul {
   list-style: square;
 }
 
-li {
-  line-height: 2rem;
+section {
+  margin: auto;
+  max-width: 600px;
 }
