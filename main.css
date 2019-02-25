@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Fira+Mono');
 
+:root {
+  --main-color: hsl(0, 0%, 65%);
+}
+
 html {
   font-family: 'Fira Mono', monospace;
   height: 100vh;
   background-color: rgb(25, 28, 41);
-  color: white;
+  color: var(--main-color);
   line-height: 2rem;
+  font-size: 1.5rem;
 }
 
 body {
-  margin: 15px;
+  margin: 30px 15px;
 }
 
 h1,
@@ -33,11 +38,12 @@ a {
   background-color: rgb(95, 57, 88);
   padding: 2px;
   text-decoration: none;
+  color: var(--main-color);
 }
 
 a:link,
 a:visited {
-  color: white;
+  color: var(--main-color);
 }
 
 ul {
@@ -48,7 +54,7 @@ ul {
 
 section {
   margin: auto;
-  max-width: 600px;
+  max-width: 700px;
 }
 
 section.skills {
@@ -63,4 +69,9 @@ div.skills {
 
 div.skills div {
   margin: 15px;
+}
+
+.devto-logo {
+  height: 30px;
+  width: 30px;
 }
