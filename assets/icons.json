@@ -1,11 +1,4 @@
 {
-  "name": "Julien Calixte",
-  "short_name": "Julien Calixte",
-  "description": "Julien Calixte's Portfolio",
-  "lang": "en",
-  "display": "standalone",
-  "theme_color": "rgb(25, 28, 41)",
-  "background_color": "#191c29",
   "icons": [{
       "src": "/assets/windows10/Square71x71Logo.scale-400.png",
       "sizes": "284x284"
