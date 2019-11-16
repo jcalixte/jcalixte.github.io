@@ -10,7 +10,7 @@ html {
   background-color: hsl(229, 24%, 13%);
   color: var(--main-color);
   line-height: 2rem;
-  font-size: 15pt;
+  font-size: 16px;
 }
 
 body {
